@@ -8,7 +8,7 @@ import {
   Settings 
 } from 'lucide-react';
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const Layout = ({ children }) => {
   const location = useLocation();
 
   const navItems = [

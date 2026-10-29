@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { createChart, IChartApi, ISeriesApi, CandlestickData, Time } from 'lightweight-charts';
+import { createChart } from 'lightweight-charts';
 
 function CandleChart({ data }) {
   const chartContainerRef = useRef(null);

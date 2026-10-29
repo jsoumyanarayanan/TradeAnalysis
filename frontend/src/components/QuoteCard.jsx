@@ -1,13 +1,6 @@
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
-import type { Quote } from '../types';
 
-interface QuoteCardProps {
-  title: string;
-  quote: Quote | null;
-  dataStatus?: string;
-}
-
-function QuoteCard({ title, quote, dataStatus }: QuoteCardProps) {
+function QuoteCard({ title, quote, dataStatus }) {
   if (!quote) {
     return (
       <div className="bg-trading-card border border-trading-border rounded-lg p-6">
